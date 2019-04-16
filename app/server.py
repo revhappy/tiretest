@@ -10,7 +10,7 @@ from fastai.vision import *
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1_mdXDPALFH70Q25smYkZpw8S9E99FXEP'
 export_file_name = 'export.pkl'
-classes = ['Good_Tire', 'Replace_Now']
+classes = ['Good Tire', 'Replace Now']
 #classes = ['Good_Tire', 'Replace_Now']
 path = Path(__file__).parent
 
