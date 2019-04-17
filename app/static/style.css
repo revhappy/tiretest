@@ -45,7 +45,7 @@ button.choose-file-button {
   width: 300px;
   height: 60px;
   border: solid 1px #1E90FF;
-  border-radius: 14px;
+  border-radius: 18px;
   background-color: #1E90FF;
   font-size: 15px;
   color: #ffffff;
@@ -55,7 +55,7 @@ button.analyze-button {
     width: 300px;
     height: 60px;
     border: solid 1px #1E90FF;
-    border-radius: 20px;
+    border-radius: 28px;
     background-color: #1E90FF;
     font-size: 15px;
     color: #ffffff;
