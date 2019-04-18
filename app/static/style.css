@@ -1,5 +1,5 @@
 body {
-    background-color:0D0000 ; 
+    background-color:#000000 ; 
 }
 
 .no-display {
@@ -19,7 +19,7 @@ body {
     font-size: 24px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color:#DCDCDC ;
+    color:#ffffff ;
 }
 
 .content {
@@ -33,7 +33,7 @@ body {
 .upload-label {
     padding: 10px;
     font-size: 12px;
-    color:#DCDCDC ;
+    color:#ffffff ;
     
 }
 
@@ -41,7 +41,7 @@ body {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 30px;
-    color:#DCDCDC ;
+    color:#ffffff ;
 }
 
 button.choose-file-button {
