@@ -7,7 +7,7 @@ body {
 }
 
 .center {
-    min-height: 0.5px;
+    min-height: 0.1px;
     margin: auto;
     padding: 10px;
     padding-left:50px;
@@ -17,7 +17,7 @@ body {
 }
 
 .title {
-    min-height: 0.5px;
+    min-height: 0.2px;
     font-size: 24px;
     margin-top: 0.1em;
     margin-bottom: 0.2em;
