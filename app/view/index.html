@@ -1,5 +1,6 @@
 <html lang='en'>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta charset='utf-8'>
         <link rel='stylesheet' href='../static/style.css'>
         <script src='../static/client.js'></script>
@@ -7,29 +8,29 @@
     <body>
         <div>
             <div class='center'>
-                <div class='title'>CHECK IF YOU NEED NEW TIRES. </div>
-                <div class='title'>TAKE A CLOSE UP PICTURE OF YOUR TIRE TREAD WITH THE CAMERA FLASH ON. </div>
+             <center><div class='title'>CHECK IF YOU NEED NEW TIRES.</center> </div>
+                <div class='title'><center>TAKE A CLOSE UP PICTURE OF YOUR TIRE TREAD WITH THE CAMERA FLASH ON.</center> </div>
                 <div class='content'>
-                    <div class='no-display'>
+                    <div class='no-display'><center>
                         <input id='file-input'
                             class='no-display'
                             type='file'
                             name='file'
                             accept='image/*'
-                            onchange='showPicked(this)'>
+                            onchange='showPicked(this)'></center>
                     </div>
                     <button class='choose-file-button' type='button' onclick='showPicker()'>1. Take Picture or Select Image</button>
                     <div class='upload-label'>
-                        <label id='upload-label'>No file chosen</label>
+                      <center><label id='upload-label'>No file chosen</label></center>
                     </div>
                     <div>
-                        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+                        <center><img id='image-picked' class='no-display' alt='Chosen Image' height='200'></center>
                     </div>
                     <div class='analyze'>
-                        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>2. Check Tire Condition</button>
+                        <center><button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>2. Check Tire Condition</button></center>
                     </div>
                     <div class='result-label'>
-                        <label id='result-label'></label>
+                        <center><label id='result-label'></label></center>
                     </div>
                 </div>
             </div>
