@@ -17,21 +17,21 @@ body {
 }
 
 .title {
-    min-height: 1px;
+    min-height: 0.5px;
     font-size: 24px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
     color:#ffffff ;
 }
 
 .content {
-    min-height: 40px;
-    margin-top: 1.0em;
+    min-height: 30px;
+    margin-top: 0.8em;
 }
 
 .analyze {
-    min-height: 40px;
-    margin-top: 1.0em;
+    min-height: 30px;
+    margin-top: 0.8em;
 }
 
 .upload-label {
