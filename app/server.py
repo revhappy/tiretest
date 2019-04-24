@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1xTNqd5p4q0ML6203PFkqXxy69D8C3HCWw'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1xTNqd5p4q0ML6203PFkqXxy69D8C3CWw'
 export_file_name = 'export.pkl'
 classes = ['Good Tire', 'Replace Tire Now', 'Replace Tire Now + Check Alignment', 'Not A Tire, Please Take a straight and clear picture of your tire']
 #classes = ['Good Tire', 'Replace Tire Now']
